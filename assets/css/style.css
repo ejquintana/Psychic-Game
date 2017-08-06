@@ -1,0 +1,19 @@
+body {
+ background-image: url(../images/psy.jpg);
+
+}
+
+header, .instructions {
+	font-family: 'Sedgwick Ave', cursive;
+	color: white;
+}
+
+p {
+	font-family: 'Sedgwick Ave', cursive;
+	color: white;
+	background-color: black;
+}
+li {
+	height: 30px;
+}
+
