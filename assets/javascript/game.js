@@ -17,7 +17,7 @@ var computerGuess = computerChoices[Math.floor(Math.random() * computerChoices.l
 
 //User guesses
 var updateGuessesLeft = function() {
-// Here we are grabbing the HTML element and setting it equal to the guessesLeft. (i.e. guessesLeft will get displayed in HTML)
+// Displaying guessesLeft in the UI
   document.querySelector('#guessed').innerHTML = "Guesses left: " + guessesLeft;
 };
 //Function for computer to randomly pick letters
